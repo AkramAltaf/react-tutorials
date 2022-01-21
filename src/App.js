@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+// import AddUser from "./components/AddUser";
+// import Users from "./components/Users";
+// import Component1 from "./components/Component1";
+// import UseCallback from "./components/UseCallback";
+// import UseMemo from "./components/UseMemo";
+// import Todo from "./components/Todo";
+// import CustomHook from "./components/CustomHook";
+// import Hero from "./components/Hero";
+// import ErrorBoundary from "./components/ErrorBoundary";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Users />
+      <AddUser />
+      <UseCallback />
+      <UseMemo />
+      <Todo />
+      <CustomHook /> */}
+      {/* <ErrorBoundary>
+        <Hero heroname="Batman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroname="Spiderman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroname="Joker" />
+      </ErrorBoundary> */}
     </div>
   );
 }
